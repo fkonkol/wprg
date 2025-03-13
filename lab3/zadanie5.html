@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Zadanie 5</title>
+  <style>
+    body {
+      background-color: #000;
+    }
+
+    h1 {
+      color: rgb(204, 204, 204);
+    }
+
+    .flow > * + * {
+      margin-top: 1rem;
+    }
+
+    .box {
+      width: 10rem;
+      aspect-ratio: 1;
+    }
+
+    .box[data-variant="red"] {
+      background-color: red;
+    }
+
+    .box[data-variant="blue"] {
+      background-color: navy;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <h1>My boxes</h1>
+
+    <div class="flow">
+      <div class="box" data-variant="red">Box 1</div>
+      <div class="box" data-variant="blue">Box 2</div>
+    </div>
+  </section> 
+</body>
+</html>
