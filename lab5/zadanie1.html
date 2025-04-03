@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zadanie 1</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+  
+    body {
+      font-family: sans-serif;
+    }
+
+    .flex-container {
+      display: flex;
+      gap: 1rem;
+      padding: 2rem;
+      border: 2px solid black;
+    }
+
+    .column {
+      flex: 1;
+      padding: 1rem;
+      min-height: 300px;
+      text-align: center;
+      background-color: lightblue;
+    }
+
+    .flex-container2 {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 2px solid black;
+      gap: 1rem;
+      padding: 3rem;
+    }
+
+    .box {
+      background-color: lightblue;
+      text-align: center;
+      padding: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-container">
+    <div class="column">Kolumna 1</div>
+    <div class="column">Kolumna 2</div>
+    <div class="column">Kolumna 3</div>
+  </div> 
+  <div class="flex-container2">
+    <div class="box">Element 1</div>
+    <div class="box">Element 2</div>
+    <div class="box">Element 3</div>
+  </div>
+</body>
+</html>
