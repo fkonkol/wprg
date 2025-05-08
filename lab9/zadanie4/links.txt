@@ -1,0 +1,3 @@
+https://www.google.com/;Search the internet
+https://www.php.net/docs.php;Read PHP docs
+https://cataas.com/cat/gif;See a random cat
